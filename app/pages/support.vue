@@ -1,7 +1,7 @@
 <script setup lang="ts">
-    import { useSeoMeta, useHead } from '@unhead/vue';
+    //import { useSeoMeta, useHead } from '@unhead/vue';
     const title = "Golem Protocol | Home";
-    const description = "Project description";
+    const description = "Golem Protocol is a responsive artificial intelligence system that adapts to your unique needs, learning from your behaviors and routines to provide seamless assistance across every aspect of your life.";
     useSeoMeta({
     title: () => title,
     description: () => description,
