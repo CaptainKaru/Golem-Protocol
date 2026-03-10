@@ -1,0 +1,303 @@
+PRIVACY POLICY
+Living Machine AI MVP
+Last Updated: [Date]
+
+1. WHO WE ARE
+
+Living Machine ("we," "us," "our") is an adaptive artificial intelligence platform 
+that learns from interactions to provide personalized, contextual assistance. We are 
+committed to protecting your privacy and handling your personal data transparently 
+in compliance with:
+
+- General Data Protection Regulation (GDPR) (EU) 2016/679
+- Data Privacy Act of 2012 (Republic Act No. 10173) (Philippines)
+- Implementing Rules and Regulations of the Data Privacy Act
+
+Data Controller: [Company Name]
+Data Protection Officer (DPO): [Name], [Email Address], [Phone Number]
+Registered Address: [Address]
+
+
+2. WHAT PERSONAL DATA WE COLLECT
+
+Based on the Living Machine MVP use cases, we collect:
+
+| Category           | Data Collected                                                | Source                     |
+|--------------------|---------------------------------------------------------------|----------------------------|
+| Identity Data      | Name, username, job title, role                               | User registration          |
+| Contact Data       | Email address, phone number                                   | User registration          |
+| Account Data       | Login credentials, account preferences, permissions           | User input                 |
+| Interaction Data   | Conversation history, queries, feedback, session memory,      | AI interactions            |
+|                    | cross-session preferences                                     |                            |
+| Usage Data         | Feature usage, task completion rates, interaction patterns    | System monitoring          |
+| Technical Data     | IP address, device type, browser, OS, log files               | Automated collection       |
+| Content Data       | Files uploaded, documents processed, emails/calendars         | User input, integrations   |
+| Professional Data  | Role-specific information for adaptation                      | User profile, inference    |
+| Feedback Data      | Explicit ratings, corrections, satisfaction scores            | User input                 |
+
+Special Categories of Data: We do not intentionally collect sensitive personal data 
+(race, ethnicity, political opinions, religious beliefs, health, sexual orientation, 
+biometrics). If you inadvertently provide such data, you consent to its processing as 
+necessary for service provision.
+
+
+3. HOW WE USE YOUR PERSONAL DATA (PURPOSES AND LAWFUL BASES)
+
+| Purpose                            | Data Used                     | Lawful Basis (GDPR)     | Lawful Basis (DPA 2012)  |
+|------------------------------------|-------------------------------|-------------------------|--------------------------|
+| Provide Living Machine Services    | Identity, Contact, Account,    | Contract performance    | Contract fulfillment     |
+|                                    | Interaction, Content Data      | (Art. 6(1)(b))          | (Sec. 12(a))             |
+| Adaptive Learning & Improvement    | Interaction, Usage,            | Legitimate interests    | Legitimate interest      |
+|                                    | Feedback Data                  | (Art. 6(1)(f))          | (Sec. 12(f))             |
+| Contextual Awareness (Memory)      | Interaction, Preference Data   | Contract performance    | Contract fulfillment     |
+| Personalization                    | Identity, Role,                | Legitimate interests    | Legitimate interest      |
+|                                    | Interaction Data               |                         |                          |
+| Autonomous Task Execution          | Content, Integration Data      | Contract performance    | Contract fulfillment     |
+| Multi-Agent Collaboration          | Task-specific data             | Contract performance    | Contract fulfillment     |
+| System Monitoring & Security       | Technical, Usage Data          | Legitimate interests /  | Legitimate interest /    |
+|                                    |                               | Legal obligation        | Legal obligation         |
+| Confidence Scoring & Self-Monitoring| Interaction, Feedback Data    | Legitimate interests    | Legitimate interest      |
+| Customer Support                   | Identity, Contact,             | Contract performance /  | Contract fulfillment /   |
+|                                    | Interaction Data               | Legitimate interests    | Legitimate interest      |
+| Compliance with Legal Obligations  | All relevant data              | Legal obligation        | Legal obligation         |
+|                                    |                               | (Art. 6(1)(c))          | (Sec. 12(c))             |
+| Marketing Communications           | Contact Data                   | Consent (Art. 6(1)(a))  | Consent (Sec. 12(b))     |
+
+Legitimate Interest Assessment: Our legitimate interests include improving AI 
+performance, understanding user needs, preventing fraud, and ensuring system security. 
+We balance these against your rights and freedoms.
+
+
+4. CONSENT AND WITHDRAWAL
+
+Where processing is based on consent (e.g., marketing, optional features):
+
+- You may withdraw consent at any time via [settings/preferences link] or by contacting us
+- Withdrawal does not affect the lawfulness of processing before withdrawal
+- Consent for children under 16 requires parental authorization (or under 18 in the Philippines)
+
+
+5. AUTOMATED DECISION-MAKING AND PROFILING
+
+Living Machine uses automated processing, including:
+
+| Activity               | Description                                            | Your Rights                          |
+|------------------------|--------------------------------------------------------|--------------------------------------|
+| Confidence Scoring     | AI evaluates confidence in responses and flags         | You can request human review of      |
+|                        | low-confidence answers                                 | critical decisions                   |
+| Personalization        | AI adapts responses based on your role and preferences | You can opt out of personalization   |
+| Proactive Assistance   | AI suggests actions based on learned patterns          | You can disable proactive features   |
+| Task Delegation        | AI routes tasks to specialized sub-agents              | You are informed when sub-agents     |
+|                        |                                                        | are used                             |
+
+You have the right not to be subject to decisions based solely on automated processing 
+that produce legal or similarly significant effects.
+
+
+6. DATA SHARING AND DISCLOSURES
+
+We share your data only as necessary:
+
+| Recipient               | Purpose                                 | Legal Basis             | Location         |
+|-------------------------|-----------------------------------------|-------------------------|------------------|
+| Service Providers       | Cloud hosting, analytics, support       | Data Processing         | [List countries] |
+|                         |                                         | Agreements              |                  |
+| Sub-Agents (AI)         | Specialized task completion             | Within Living Machine   | Same as main     |
+|                         |                                         | ecosystem               | system           |
+| Third-Party Integrations| Calendar, email, database access        | Your explicit consent / | Varies by        |
+|                         |                                         | Contract performance    | third party      |
+| Professional Advisors   | Legal, compliance, auditing             | Legitimate interests    | [Countries]      |
+| Law Enforcement/        | Legal compliance, court orders          | Legal obligation        | Philippines/EU   |
+| Regulators              |                                         |                         |                  |
+| Business Transfers      | Merger, acquisition, asset sale         | Legitimate interests    | [Countries]      |
+
+We require all third parties to respect your data privacy and treat it in accordance 
+with the law. We do not sell your personal data to third parties.
+
+
+7. INTERNATIONAL DATA TRANSFERS
+
+Your personal data may be transferred to and processed in countries outside your 
+country of residence, including the Philippines and the European Economic Area. We 
+ensure such transfers comply with applicable data protection laws through:
+
+- Adequacy decisions by the European Commission
+- Standard Contractual Clauses approved by the European Commission
+- Binding Corporate Rules
+- Consent (where appropriate)
+
+For transfers to countries without adequacy decisions, we implement appropriate 
+safeguards to protect your data. You may request a copy of these safeguards by 
+contacting our DPO.
+
+
+8. DATA RETENTION
+
+We retain your personal data only as long as necessary:
+
+| Data Category           | Retention Period                                          |
+|-------------------------|-----------------------------------------------------------|
+| Account Data            | Until account deletion + 30 days (backup)                 |
+| Interaction Data        | 24 months for AI training; anonymized thereafter          |
+| Usage Data              | 12 months                                                 |
+| Technical Data          | 6 months                                                  |
+| Content Data            | Until you delete or task completion + 30 days             |
+| Marketing Data          | Until consent withdrawal + 30 days                        |
+| Legal/Compliance Data   | As required by applicable law (typically 5-10 years)      |
+
+Upon termination of your account, we will delete or anonymize your data unless 
+retention is required by law. You may request earlier deletion as provided in 
+Section 9.
+
+
+9. YOUR DATA PROTECTION RIGHTS
+
+Under GDPR and the Philippine Data Privacy Act, you have the following rights:
+
+| Right                      | Description                                                |
+|----------------------------|------------------------------------------------------------|
+| Right to Access            | Request confirmation of whether we process your data and   |
+|                            | access to that data                                        |
+| Right to Rectification      | Request correction of inaccurate or incomplete data        |
+| Right to Erasure           | Request deletion of your data where there is no compelling |
+| (Right to be Forgotten)    | reason for continued processing                            |
+| Right to Restriction       | Request restriction of processing in certain circumstances |
+| Right to Data Portability  | Receive your data in a structured, commonly used format    |
+|                            | and transmit it to another controller                      |
+| Right to Object            | Object to processing based on legitimate interests or for  |
+|                            | direct marketing                                           |
+| Right to Withdraw Consent  | Withdraw consent at any time (does not affect prior        |
+|                            | processing)                                                |
+| Right to Lodge a Complaint | File a complaint with a supervisory authority              |
+
+How to Exercise Your Rights:
+
+- Email: [DPO Email Address]
+- Phone: [DPO Phone Number]
+- Mail: [DPO Address]
+
+We will respond within one month as required by law. This period may be extended by 
+two months for complex requests, with notice to you.
+
+
+10. DATA SECURITY
+
+We implement appropriate technical and organizational measures to protect your 
+personal data, including:
+
+- Encryption of data in transit (TLS) and at rest (AES-256)
+- Access controls and multi-factor authentication
+- Regular security assessments and penetration testing
+- Staff training on data protection
+- Incident response and breach notification procedures
+- Pseudonymization and anonymization where feasible
+
+In the event of a data breach affecting your personal data, we will notify you and 
+relevant supervisory authorities within 72 hours as required by law.
+
+
+11. CHILDREN'S PRIVACY
+
+Living Machine is not intended for individuals under 18 (Philippines) or 16 (EU). 
+We do not knowingly collect data from children. If you become aware that a child has 
+provided us with personal data, please contact us immediately.
+
+
+12. THIRD-PARTY LINKS AND INTEGRATIONS
+
+Living Machine may integrate with third-party services (calendars, email, databases) 
+or contain links to external sites. When you enable such integrations, your data will 
+be processed according to the third party's privacy practices. We are not responsible 
+for third-party practices and encourage you to read their privacy policies.
+
+
+13. CHANGES TO THIS PRIVACY POLICY
+
+We may update this Privacy Policy from time to time to reflect changes in our 
+practices, legal requirements, or the Living Machine MVP features. We will notify 
+you of material changes via:
+
+- Email to your registered address
+- In-app notification
+- Notice on our website
+
+The "Last Updated" date at the top of this policy will be revised. Continued use 
+after changes constitutes acceptance of the revised policy.
+
+
+14. SUPERVISORY AUTHORITIES
+
+You have the right to lodge a complaint with a supervisory authority:
+
+Philippines:
+National Privacy Commission
+5th Floor, Delegation Building, PICC Complex,
+Pasay City, Metro Manila 1307
+https://privacy.gov.ph
+complaints@privacy.gov.ph
+
+European Economic Area:
+[Insert relevant EU supervisory authority based on user location]
+https://edpb.europa.eu/about-edpb/about-edpb/members_en
+
+
+15. CONTACT INFORMATION
+
+If you have questions, concerns, or requests regarding this Privacy Policy or our 
+data practices:
+
+Data Protection Officer: [DPO Name]
+Email: [DPO Email Address]
+Phone: [DPO Phone Number]
+Address: [DPO Physical Address]
+
+For data subject requests: privacy@[company].com
+For security issues: security@[company].com
+
+
+16. SPECIFIC PROVISIONS FOR PHILIPPINE USERS (DPA 2012)
+
+In compliance with the Data Privacy Act of 2012:
+
+- You have the right to be informed whether personal data pertaining to you shall be, 
+  are being, or have been processed
+- You have the right to object to processing
+- You have the right to suspend, withdraw, or order the blocking, removal, or 
+  destruction of your personal data
+- You have the right to be indemnified for damages sustained due to inaccurate, 
+  incomplete, outdated, false, unlawfully obtained, or unauthorized use of data
+- You may avail of alternative dispute resolution
+- You have the right to data portability
+
+
+17. SPECIFIC PROVISIONS FOR EU USERS (GDPR)
+
+In compliance with the GDPR:
+
+- Processing is based on the lawful bases identified in Section 3
+- You have the right to lodge a complaint with your local supervisory authority
+- You have the right to provide instructions regarding the processing of your data 
+  after death
+- Automated decision-making is subject to Article 22 safeguards
+- Data Protection Officer contact is provided in Section 15
+
+
+18. LANGUAGE
+
+This Privacy Policy may be available in multiple languages. In case of conflict, the 
+English version shall prevail.
+
+
+ACKNOWLEDGMENT
+
+By using Living Machine, you acknowledge that you have read and understood this 
+Privacy Policy and agree to the collection, use, and disclosure of your personal 
+data as described.
+
+---
+
+Document Control:
+Version: 1.0
+Last Updated: [Date]
+Next Review: [Date + 1 Year]
+Owner: Data Protection Officer

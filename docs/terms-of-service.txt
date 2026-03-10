@@ -2,7 +2,7 @@ TERMS OF SERVICE
 Living Machine AI MVP
 Last Updated: [Date]
 
-1. Introduction and Scope
+1. Introduction and Scope   
 These Terms of Service ("Terms") govern your access to and use of the Living Machine AI system ("Living Machine," "we," "our," or "us"), an adaptive artificial intelligence platform. By accessing or using Living Machine, you enter into a legally binding agreement with us.
 
 Key Features Covered: This MVP provides adaptive learning, contextual awareness, autonomous task execution, personalization, self-monitoring, multi-agent collaboration, and multi-modal interaction capabilities .
