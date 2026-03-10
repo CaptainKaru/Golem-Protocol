@@ -1,0 +1,15 @@
+Use Case 4.1: User Preference Learning
+
+Actor: End User
+
+Description: The AI learns individual user preferences for communication style, detail level, and content format
+
+Success Metric: 80% user satisfaction rating for personalized responses
+
+Use Case 4.2: Role-Based Adaptation
+
+Actor: Professional Users
+
+Description: The AI adapts its knowledge and communication style based on user's role (developer, manager, researcher, etc.)
+
+Success Metric: Correctly identify and adapt to role-specific needs with 85% accuracy
