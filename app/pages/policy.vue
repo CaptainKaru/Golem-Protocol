@@ -4,7 +4,7 @@
     <NavBar/>
     <div id="pgMain" class="pg-main"></div>
     <!-- <Cookies /> -->
-    <!-- <Copyright /> -->
+    <Copyright />
     </client-only>
 </template>
 
