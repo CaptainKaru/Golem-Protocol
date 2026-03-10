@@ -1,8 +1,8 @@
 <script lang="ts"></script>
 <template>
     <client-only>
-    <!-- <NavBar /> -->
-    <div id="PGMain" class="PG-main"></div>
+    <NavBar />
+    <div id="pgMain" class="pg-main"></div>
     <!-- <Cookies /> -->
     <!-- <Copyright /> -->
     </client-only>
@@ -10,7 +10,7 @@
 
 <script setup lang="ts">
     import { useSeoMeta, useHead } from '@vueuse/head';
-    const title = "Project Golem| Home";
+    const title = "Project Golem | Home";
     const description = "Golem Protocol is a responsive artificial intelligence system that adapts to your unique needs, learning from your behaviors and routines to provide seamless assistance across every aspect of your life.";
     useSeoMeta({
         title: () => title,

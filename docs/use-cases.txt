@@ -13,3 +13,11 @@ Actor: Professional Users
 Description: The AI adapts its knowledge and communication style based on user's role (developer, manager, researcher, etc.)
 
 Success Metric: Correctly identify and adapt to role-specific needs with 85% accuracy
+
+Use Case 4.3: Preference Decay and Evolution
+
+Actor: End User
+
+Description: The AI recognizes when user preferences change over time, gradually deprioritizing outdated preferences while adapting to new patterns
+
+Success Metric: Successfully identify preference changes within 5-7 interactions and adjust accordingly
