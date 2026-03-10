@@ -1,0 +1,141 @@
+TERMS OF SERVICE
+Living Machine AI MVP
+Last Updated: [Date]
+
+1. Introduction and Scope
+These Terms of Service ("Terms") govern your access to and use of the Living Machine AI system ("Living Machine," "we," "our," or "us"), an adaptive artificial intelligence platform. By accessing or using Living Machine, you enter into a legally binding agreement with us.
+
+Key Features Covered: This MVP provides adaptive learning, contextual awareness, autonomous task execution, personalization, self-monitoring, multi-agent collaboration, and multi-modal interaction capabilities .
+
+2. Eligibility and Account Registration
+You must be at least 18 years old to use Living Machine. By registering, you represent that you have the legal capacity to enter these Terms. You are responsible for maintaining the confidentiality of your account credentials and all activities under your account .
+
+3. Data Protection and Privacy
+We process your personal data in accordance with our Privacy Policy and in compliance with:
+
+The General Data Protection Regulation (GDPR) (EU) 
+
+The Data Privacy Act of 2012 (Republic Act No. 10173) (Philippines) 
+
+    3.1 Lawful Bases for Processing
+    We process your personal data only when we have a lawful basis, including:
+
+    Performance of a contract (providing the Living Machine services)
+
+    Your consent (for optional features like marketing)
+
+    Compliance with legal obligations
+
+    Our legitimate interests (improving the AI system, fraud prevention), balanced against your rights and freedoms 
+
+    3.2 Types of Data Processed
+    We collect and process:
+
+    Account Information: Name, email address, contact details
+
+    Usage Data: Interactions with the AI, conversation history, preferences
+
+    Technical Data: Device information, IP address, log data
+
+    Content: Files, messages, and other materials you submit to the system
+
+    Special categories of personal data (sensitive data) are processed only with your explicit consent or as permitted by law .
+
+4. Your Data Protection Rights
+Under GDPR and the Philippine Data Privacy Act, you have the following rights:
+
+Right	Description
+Right to Access	Request confirmation of whether we process your data and access to that data 
+Right to Rectification	Request correction of inaccurate or incomplete data 
+Right to Erasure (Right to be Forgotten)	Request deletion of your data where there is no compelling reason for continued processing 
+Right to Restriction	Request restriction of processing in certain circumstances
+Right to Data Portability	Receive your data in a structured, commonly used format and transmit it to another controller 
+Right to Object	Object to processing based on legitimate interests or for direct marketing 
+Right to Withdraw Consent	Withdraw consent at any time (withdrawal does not affect lawfulness of prior processing) 
+Right to Lodge a Complaint	File a complaint with a supervisory authority (NPC in the Philippines or relevant EU authority) 
+To exercise these rights, contact our Data Protection Officer at [DPO Email Address]. We will respond within one month as required by law .
+
+5. Data Retention
+We retain your personal data only as long as necessary to fulfill the purposes for which it was collected, including:
+
+Providing the Living Machine services
+
+Complying with legal obligations
+
+Resolving disputes
+
+Enforcing our agreements
+
+Specific retention periods are documented in our Data Retention Policy. Upon termination of your account, we will delete or anonymize your data unless retention is required by law .
+
+6. Data Security
+We implement appropriate technical and organizational measures to protect your personal data against unauthorized or unlawful processing and against accidental loss, destruction, or damage, including:
+
+Encryption of data in transit and at rest
+
+Access controls and authentication measures
+
+Regular security assessments
+
+Breach notification procedures 
+
+In the event of a data breach affecting your personal data, we will notify you and relevant supervisory authorities as required by law .
+
+7. International Data Transfers
+Your personal data may be transferred to and processed in countries outside your country of residence, including the Philippines and the European Economic Area. We ensure such transfers comply with applicable data protection laws through:
+
+Adequacy decisions
+
+Standard Contractual Clauses
+
+Binding Corporate Rules
+
+Other lawful transfer mechanisms 
+
+8. AI Learning and Improvement
+Living Machine learns from user interactions to improve its performance . By using the service, you acknowledge that:
+
+Your interactions may be used to train and improve the AI system
+
+We employ anonymization and aggregation techniques where possible
+
+You may opt out of having your data used for training by contacting us (opt-out may limit certain features)
+
+9. User Responsibilities
+You agree not to:
+
+Use Living Machine for illegal purposes or to violate any laws
+
+Infringe on intellectual property rights
+
+Upload malicious code or attempt to compromise system security
+
+Reverse engineer or extract the underlying AI models
+
+Provide false or misleading information
+
+Use the service to process special categories of data without proper legal basis 
+
+10. Third-Party Services and Integrations
+Living Machine may integrate with third-party services (calendars, email, databases). When you enable such integrations, your data will be processed according to the third party's terms and privacy policies. We are not responsible for third-party practices .
+
+11. Changes to These Terms
+We may update these Terms from time to time. We will notify you of material changes via email or through the service. Continued use after changes constitutes acceptance of the revised Terms .
+
+12. Contact Information
+Role	Contact Details
+Data Protection Officer	[DPO Name], [DPO Email Address], [DPO Phone Number]
+National Privacy Commission (Philippines)	https://privacy.gov.ph
+Relevant EU Supervisory Authority	[As applicable based on your location]
+Key Compliance Notes:
+Lawful Bases: The Terms identify specific lawful bases (contract performance, consent, legitimate interests, legal obligation) as required by GDPR Article 6 .
+
+Data Subject Rights: All eight GDPR rights are explicitly listed, with reference to Philippine law requirements .
+
+Sensitive Data: Special provisions address processing of sensitive personal information, requiring explicit consent .
+
+Accountability: The Terms demonstrate accountability by specifying retention periods, security measures, and DPO contact information .
+
+Extra-territorial Application: The Terms acknowledge that both GDPR and Philippine law may apply to users outside these jurisdictions .
+
+Consent Withdrawal: Clear explanation that withdrawal does not affect prior processing, as required by both regimes .
