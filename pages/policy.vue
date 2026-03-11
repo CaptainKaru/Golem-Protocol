@@ -2,8 +2,8 @@
 <template>
     <client-only>
     <NavBar/>
-    <div id="pgMain" class="pg-main"></div>
-    <!-- <Cookies /> -->
+    <div id="gpMain" class="gp-main"></div>
+    <Cookies />
     <Copyright />
     </client-only>
 </template>

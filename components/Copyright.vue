@@ -4,15 +4,15 @@
 
 <template>
     <client-only>
-        <footer class="pg-footer-area">
-            <nav class="pg-footer-links">
+        <footer class="gp-footer-area">
+            <nav class="gp-footer-links">
                 <a href="/terms">Terms of Service</a>
                 <span>&nbsp;|&nbsp;</span>
                 <a href="/policy">Privacy Policy</a>
                 <span>&nbsp;|&nbsp;</span>
-                <a href="support">Support</a>
+                <a href="/support">Support</a>
             </nav>
-                <div class="pg-footer-copyright">
+                <div class="gp-footer-copyright">
                 <span>&copy;&nbsp;</span>
                 <span>{{ year }}</span>
                 <span>&nbsp;Lotus. All rights reserved.</span>
