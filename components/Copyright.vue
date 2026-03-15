@@ -15,7 +15,7 @@
                 <div class="gp-footer-copyright">
                 <span>&copy;&nbsp;</span>
                 <span>{{ year }}</span>
-                <span>&nbsp;Lotus. All rights reserved.</span>
+                <span>&nbsp;Talos. All rights reserved.</span>
             </div>
         </footer>
     </client-only>
