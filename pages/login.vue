@@ -113,9 +113,57 @@ if (accessToken.value && accessToken.value !== "") {
     router.push("/admin");
   }
 }
+function showCookiePopup(show = true) {
+    const cookieBox = document.getElementById("gpCookieBox");
+    const cookieModal = document.getElementById("gpCookieModal");
+    
+    if (!cookieBox || !cookieModal) return;
+    
+    if (show) {
+        cookieBox.classList.remove("gp-hidden");
+        cookieModal.classList.remove("gp-hidden");
+    } else {
+        cookieBox.classList.add("gp-hidden");
+        cookieModal.classList.add("gp-hidden");
+    }
+}
 
+function allowAllCookies() {
+    allowCookies.value = true;
+    showCookiePopup(false);
+}
+
+function loadModal() {
+    setTimeout(() => {
+        const cookieModal = document.getElementById("gpCookieModal");
+        const cookieBox = document.getElementById("gpCookieBox");
+        const cookieX = document.getElementById("gpCookieX");
+        const cookieOK = document.getElementById("gpCookieOK");
+        
+        if (!cookieModal || !cookieBox || !cookieX || !cookieOK) {
+            return;
+        }
+        
+        if (allowCookies.value === true) {
+            cookieBox.classList.add("gp-hidden");
+            cookieModal.classList.add("gp-hidden");
+            return;
+        }
+        
+        showCookiePopup();
+        
+        cookieX.addEventListener("click", () => {
+            showCookiePopup(false);
+        });
+        
+        cookieOK.addEventListener("click", () => {
+            allowAllCookies();
+        });
+    }, 100);
+}
 
 onMounted(() => {
+  loadModal();
   if (isLoggedIn) return;
   
   const loginBox = document.getElementById("gpLoginBox") as HTMLDivElement;

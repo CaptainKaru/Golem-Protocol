@@ -25,7 +25,7 @@ margin-left: 5%;
 display: inline-flex;
 width: fit-content;
 float: left;
-font-family: 'Bitcount';
+font-family: 'Bitcount'!important;
 color: #27374D;
 }
 
