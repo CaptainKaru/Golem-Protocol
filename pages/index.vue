@@ -237,6 +237,7 @@
  background: #fff;
  border-radius: 3px;
  border: 1px solid rgba(0, 0, 0, 0.2);
+ font-family: 'Roboto';
  cursor: pointer;
 }
 .gp-content-title {

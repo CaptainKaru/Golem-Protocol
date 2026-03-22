@@ -78,11 +78,11 @@ function getByID<T extends HTMLElement>(id: string) {
  return document.getElementById(id) as T;
 }
 function checkAuthorizations() {
-if (!accessToken.value) {
- router.push("/login");
- } else if (userLevel.value <= 2) {
- router.push("/");
- }
+  if (!accessToken.value) {
+    router.push("/login");
+  } else if (userLevel.value < 2) {
+    router.push("/");
+  }
  const navBasic = getByID<HTMLDivElement>("gpNavBasic");
  const navAdmin = getByID<HTMLDivElement>("gpNavAdmin");
  const navLogout = getByID<HTMLDivElement>("gpNavAdminLogout");

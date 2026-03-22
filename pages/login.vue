@@ -40,9 +40,12 @@ useSeoMeta({
 
 useHead({
   link: [
-    { rel: "icon", type: "image/png", href: "/logo.png" },
-    { rel: "stylesheet", href: "/reset.css" },
-    { rel: "stylesheet", href: "/custom.css" },
+    {rel: 'icon', type: 'image/png', href: '/logo.png'},
+    {rel: 'stylesheet', href: '/reset.css'},
+    {rel: 'stylesheet', href: '/custom.css'} ,
+    {rel: 'preconnect', href: 'https://fonts.googleapis.com'},
+    {rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: ''},
+    {rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Bitcount:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap'}
   ],
 });
 
@@ -102,7 +105,6 @@ type AuthResponse = {
 
 let isLoggedIn = false;
 
-// Check if already logged in
 if (accessToken.value && accessToken.value !== "") {
   isLoggedIn = true;
   if (userLevel.value <= 1) {
@@ -112,9 +114,8 @@ if (accessToken.value && accessToken.value !== "") {
   }
 }
 
-// Setup login form
+
 onMounted(() => {
-  // If already logged in, don't show form
   if (isLoggedIn) return;
   
   const loginBox = document.getElementById("gpLoginBox") as HTMLDivElement;
@@ -128,10 +129,8 @@ onMounted(() => {
     return;
   }
   
-  // Show the login box
   loginBox.style.display = "block";
   
-  // Check retries
   if (retries.value >= 3) {
     loginMessage.innerText = "Too many attempts, try again after 1 hour.";
     loginMessage.classList.remove("gp-hidden");
@@ -139,16 +138,13 @@ onMounted(() => {
     return;
   }
   
-  // Login button click handler
   loginOK.onclick = async () => {
     const tempUsername = loginUsername.value.trim();
     const tempPassword = loginPassword.value;
-    
-    // Clear previous message
+
     loginMessage.classList.add("gp-hidden");
     loginMessage.innerText = "";
     
-    // Validation
     if (!tempUsername) {
       loginMessage.innerText = "Username is required.";
       loginMessage.classList.remove("gp-hidden");
@@ -161,7 +157,6 @@ onMounted(() => {
       return;
     }
     
-    // Disable inputs during login
     loginUsername.disabled = true;
     loginPassword.disabled = true;
     loginOK.disabled = true;
@@ -178,34 +173,28 @@ onMounted(() => {
       });
       
       if (response.accessToken && response.accessToken !== "") {
-        // Save to cookies
         accessToken.value = response.accessToken;
         userLevel.value = response.userLevel;
         fullName.value = response.fullName;
         username.value = tempUsername;
         
-        // Reset retries on successful login
         retries.value = 0;
         
-        // Redirect based on user level
         if (response.userLevel <= 1) {
           router.push("/");
         } else {
           router.push("/admin");
         }
       } else {
-        // Failed login
         retries.value = (retries.value || 0) + 1;
         loginMessage.innerText = response.message || "Invalid username or password";
         loginMessage.classList.remove("gp-hidden");
         
-        // Re-enable inputs
         loginUsername.disabled = false;
         loginPassword.disabled = false;
         loginOK.disabled = false;
         loginOK.textContent = "Login";
         
-        // Clear password field
         loginPassword.value = "";
       }
     } catch (error: any) {
@@ -213,7 +202,6 @@ onMounted(() => {
       loginMessage.innerText = "Connection error. Please try again.";
       loginMessage.classList.remove("gp-hidden");
       
-      // Re-enable inputs
       loginUsername.disabled = false;
       loginPassword.disabled = false;
       loginOK.disabled = false;
@@ -221,7 +209,6 @@ onMounted(() => {
     }
   };
   
-  // Enter key support
   loginPassword.onkeypress = (e) => {
     if (e.key === "Enter") {
       loginOK.click();
@@ -263,6 +250,7 @@ onMounted(() => {
   color: #666;
   margin-bottom: 30px;
   font-size: 0.9em;
+  font-family: 'Roboto';
 }
 
 .gp-login-form {
