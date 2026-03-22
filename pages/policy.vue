@@ -1,7 +1,7 @@
 <script lang="ts"></script>
 <template>
     <client-only>
-    <NavBar/>
+    <NavBar :navAdminMode="'user'"/>
     <div id="gpMain" class="gp-main"></div>
     <Cookies />
     <Copyright />
