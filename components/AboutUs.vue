@@ -29,28 +29,32 @@
         <h2>Our Team</h2>
         <div class="team-members">
           <div class="member">
-            <h3><a href="/team/person-1">John Smith</a></h3>
+            <h3><a href="/team/person-1">Carlroy F. Arañez</a></h3>
             <p class="role">Project Manager</p>
           </div>
           <div class="member">
-            <h3><a href="/team/person-2">Sarah Johnson</a></h3>
+            <h3><a href="/team/person-2">Kyla Gayle B. Delima</a></h3>
             <p class="role">Database Designer</p>
           </div>
           <div class="member">
-            <h3><a href="/team/person-3">Michael Chen</a></h3>
+            <h3><a href="/team/person-3">Angel M. Nocerale</a></h3>
             <p class="role">Web Designer</p>
           </div>
           <div class="member">
-            <h3><a href="/team/person-4">Emma Davis</a></h3>
+            <h3><a href="/team/person-4">Azriel Kaye C. Castro</a></h3>
             <p class="role">Frontend Developer</p>
           </div>
           <div class="member">
-            <h3><a href="/team/person-5">Alex Rodriguez</a></h3>
+            <h3><a href="/team/person-5">Evan Kasimir Y. Magadan</a></h3>
             <p class="role">DevOps Engineer</p>
           </div>
           <div class="member">
-            <h3><a href="/team/person-6">Lisa Anderson</a></h3>
+            <h3><a href="/team/person-6">Jerome Daniel S. Sta. Agata</a></h3>
             <p class="role">Backend Developer</p>
+          </div>
+          <div class="member">
+            <h3><a href="/team/person-7">Monarch Asis</a></h3>
+            <p class="role">Quality Assurance (QA) Tester</p>
           </div>
         </div>
       </div>
@@ -134,6 +138,8 @@ h2 {
   font-size: 0.95rem;
   margin: 0.5rem 0 0 0;
 }
+
+.values ul {
   list-style-type: none;
   padding-left: 0;
 }

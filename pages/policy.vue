@@ -3,6 +3,8 @@
     <client-only>
         <NavBar :navAdminMode="'false'"/>
             <div id="gpMain" class="gp-main"></div>
+        <Cookies />
+    <AboutUs />
         
         <main>
         <h1>PRIVACY POLICY</h1>
