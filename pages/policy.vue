@@ -4,7 +4,7 @@
         <NavBar :navAdminMode="'user'"/>
             <div id="gpMain" class="gp-main"></div>
         <Cookies />
-        <Copyright /> 
+    <AboutUs />
         
         <main>
             <h1>PRIVACY POLICY</h1>
