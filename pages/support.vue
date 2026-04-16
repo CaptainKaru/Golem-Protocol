@@ -20,6 +20,7 @@
       </div>
     </div>
     <Cookies />
+    <AboutUs />
     <Copyright />
   </client-only>
 </template>
