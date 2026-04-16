@@ -29,8 +29,8 @@
         <h2>Our Team</h2>
         <div class="team-members">
           <div class="member">
-            <h3><a href="/team/person-1">Azriel Kaye C. Castro</a></h3>
-            <p class="role">Frontend Developer</p>
+            <h3><a href="/team/person-1">Carlroy F. Arañez</a></h3>
+            <p class="role">Project Manager</p>
           </div>
           <div class="member">
             <h3><a href="/team/person-2">Kyla Gayle B. Delima</a></h3>
@@ -41,8 +41,8 @@
             <p class="role">Web Designer</p>
           </div>
           <div class="member">
-            <h3><a href="/team/person-4">Carlroy F. Arañez</a></h3>
-            <p class="role">Project Manager</p>
+            <h3><a href="/team/person-4">Azriel Kaye C. Castro</a></h3>
+            <p class="role">Frontend Developer</p>
           </div>
           <div class="member">
             <h3><a href="/team/person-5">Evan Kasimir Y. Magadan</a></h3>
@@ -54,7 +54,7 @@
           </div>
           <div class="member">
             <h3><a href="/team/person-7">Monarch Asis</a></h3>
-            <p class="role">Team Member</p>
+            <p class="role">Quality Assurance (QA) Tester</p>
           </div>
         </div>
       </div>
