@@ -1711,7 +1711,7 @@
 
 "@vueuse/head@^2.0.0":
   version "2.0.0"
-  resolved "https://registry.npmjs.org/@vueuse/head/-/head-2.0.0.tgz"
+  resolved "https://registry.yarnpkg.com/@vueuse/head/-/head-2.0.0.tgz#a4570c0933368a436796c2f737d56e169a8f0864"
   integrity sha512-ykdOxTGs95xjD4WXE4na/umxZea2Itl0GWBILas+O4oqS7eXIods38INvk3XkJKjqMdWPcpCyLX/DioLQxU1KA==
   dependencies:
     "@unhead/dom" "^1.7.0"
