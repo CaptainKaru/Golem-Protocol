@@ -8,6 +8,7 @@
     <div id="gpContainer" class="gp-container"></div>
     </div>
     <Cookies />
+    <AboutUs />
     <Copyright />
     </client-only>
 </template>
