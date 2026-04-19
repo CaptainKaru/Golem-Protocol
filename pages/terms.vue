@@ -7,8 +7,7 @@
         <main class="terms-page">
             <section class="terms-hero">
                 <div>
-                    <p class="eyebrow">Terms of Service</p>
-                    <h1>Living Machine AI MVP</h1>
+                    <h1>Terms of Service</h1>
                     <p class="subtitle">Last updated: April 16, 2026</p>
                 </div>
             </section>
@@ -215,7 +214,12 @@
     margin: 80px auto 40px;
     max-width: 980px;
     padding: 0 24px 24px;
-    color: #1f2937;
+    color: hsl(215, 28%, 17%);
+}
+
+.terms-page h1 {
+    padding-left: 0.5rem;
+    text-align: center;
 }
 
 .terms-hero {
@@ -225,6 +229,11 @@
     border: 1px solid rgba(15, 23, 42, 0.08);
     border-radius: 22px;
     box-shadow: 0 24px 50px rgba(15, 23, 42, 0.06);
+}
+
+.terms-hero p{
+    text-align: center;
+    font-size: 0.8rem;
 }
 
 .eyebrow {
@@ -256,6 +265,25 @@ h1 {
     box-shadow: 0 18px 40px rgba(15, 23, 42, 0.05);
 }
 
+.terms-content h2{
+    padding-left: 0.5rem;
+    border-left: 4px solid #e94560;
+    border-bottom: 2px solid #e94560;
+}
+
+.terms-content h3::before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border: 2px solid #e94560;
+    margin-right: 0.5rem;
+    vertical-align: middle;
+}
+
+.terms-content h3{
+    padding-left: 0.75rem;
+}
 .terms-content h2,
 .terms-content h3 {
     color: #0f172a;
@@ -325,7 +353,7 @@ h1 {
     margin-top: 28px;
     padding: 22px;
     background: #f8fafc;
-    border-left: 4px solid #2563eb;
+    border-left: 4px solid #e94560;
     border-radius: 14px;
 }
 
