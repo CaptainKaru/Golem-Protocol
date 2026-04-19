@@ -19,7 +19,6 @@
       </div>
     </div>
     <Cookies />
-    <AboutUs />
     <Copyright />
   </div>
 </template>
