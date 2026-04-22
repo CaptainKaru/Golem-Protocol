@@ -4,7 +4,7 @@
     <NavBar :navAdminMode="'false'" />
     <div id="gpMain" class="gp-main">
       <div class="support-container">
-        <h1 class="support-title">Support Page</h1>
+        <h1 class="support-title">Support</h1>
         <h2 class="support-subtitle">Account Deletion</h2>
         <p class="support-effective-date">Effective Date: April 16, 2026</p>
         <h3 class="support-section-heading">Data Retention and Deletion</h3>
@@ -68,15 +68,21 @@ useHead({
   font-family: "Bitcount", "Roboto", Arial, sans-serif;
   font-size: 1.8em;
   color: #27374d;
-  margin-bottom: 8px;
+  font-size: 2.5em;
+  font-weight: 430;
+  margin-bottom: 25px;
+  text-align: center;
 }
 
 .support-subtitle {
-  font-family: "Roboto", Arial, sans-serif;
+  font-family: "Bitcount", Arial, sans-serif;
   font-size: 1.1em;
   color: #30364f;
   margin-bottom: 6px;
   font-weight: 600;
+  padding-left: 0.5rem;
+  border-left: 4px solid #e94560;
+  border-bottom: 2px solid #e94560;
 }
 
 .support-effective-date {
@@ -87,13 +93,15 @@ useHead({
 }
 
 .support-section-heading {
-  font-family: "Roboto", Arial, sans-serif;
-  font-size: 1em;
-  font-weight: 700;
+  font-family: "Bitcount", Arial, sans-serif;
+  font-size: 1.1em;
+  font-weight: 600;
   color: #30364f;
   margin-bottom: 10px;
   padding-bottom: 6px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  padding-left: 0.5rem;
+  border-left: 4px solid #e94560;
+  border-bottom: 2px solid #e94560;
 }
 
 .support-body {
