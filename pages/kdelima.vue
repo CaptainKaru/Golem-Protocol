@@ -3,11 +3,14 @@
 <template>
   <client-only>
     <!-- NAV -->
+    <div class="kyla-portfolio-page">
     <nav id="gpNav" class="nav">
-      <div class="nav-logo">
-        <span class="nav-logo-mark">✦</span>
-        <span class="nav-logo-text">BLUEBIRD</span>
-      </div>
+      <a href="/" @click="forceReload" class="nav-logo">
+        <div class="nav-logo">
+          <span class="nav-logo-mark">✦</span>
+          <span class="nav-logo-text">BLUEBIRD</span>
+        </div>
+      </a>
       <div class="nav-links">
         <a href="#home" class="nav-link">Home</a>
         <a href="#about" class="nav-link">About</a>
@@ -205,6 +208,7 @@
         <span class="footer-made">Made with ✦ and a lot of matcha</span>
       </div>
     </footer>
+    </div>
   </client-only>
 </template>
 
@@ -233,6 +237,10 @@ useHead({
     },
   ],
 });
+
+const forceReload = (e: MouseEvent) => {
+  window.location.href = '/';
+};
 
 onMounted(() => {
   document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
@@ -265,7 +273,34 @@ onMounted(() => {
 });
 </script>
 
-<style>
+<style scoped>
+.kyla-portfolio-page {
+  --blue: #0fa3e2;
+  --blue-dark: #0a7ab3;
+  --green: #9cff57;
+  --black: #111111;
+  --white: #f5f5f0;
+  --gray: #888;
+  --border: rgba(0,0,0,0.12);
+  --font-display: 'Bebas Neue', sans-serif;
+  --font-body: 'Space Grotesk', sans-serif;
+  --font-script: 'Caveat', cursive;
+}
+
+.kyla-portfolio-page .nav {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 5%;
+  background: var(--white);
+  border-bottom: 1.5px solid var(--border);
+}
+
+.kyla-portfolio-page .nav-logo { display: flex; align-items: center; gap: 8px; }
+
 :root {
   --blue: #0fa3e2;
   --blue-dark: #0a7ab3;
