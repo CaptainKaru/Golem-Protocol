@@ -37,7 +37,7 @@
             <p class="role">Database Designer</p>
           </div>
           <div class="member">
-            <h3><a href="/team/person-3">Angel M. Nocerale</a></h3>
+            <h3><a href="/anocerale">Angel M. Nocerale</a></h3>
             <p class="role">Web Designer</p>
           </div>
           <div class="member">
