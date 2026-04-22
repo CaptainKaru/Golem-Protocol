@@ -49,7 +49,7 @@
             <p class="role">DevOps Engineer</p>
           </div>
           <div class="member">
-            <h3><a href="/team/person-6">Jerome Daniel S. Sta. Agata</a></h3>
+            <h3><a href="/jdstaagata">Jerome Daniel S. Sta. Agata</a></h3>
             <p class="role">Backend Developer</p>
           </div>
           <div class="member">
