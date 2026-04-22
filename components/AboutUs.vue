@@ -29,7 +29,7 @@
         <h2>Our Team</h2>
         <div class="team-members">
           <div class="member">
-            <h3><a href="/team/person-1">Carlroy F. Arañez</a></h3>
+            <h3><a href="/caranez">Carlroy F. Arañez</a></h3>
             <p class="role">Project Manager</p>
           </div>
           <div class="member">
