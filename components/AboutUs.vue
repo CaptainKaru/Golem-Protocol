@@ -29,27 +29,27 @@
         <h2>Our Team</h2>
         <div class="team-members">
           <div class="member">
-            <h3><a href="/team/person-1">Carlroy F. Arañez</a></h3>
+            <h3><a href="/caranez">Carlroy F. Arañez</a></h3>
             <p class="role">Project Manager</p>
           </div>
           <div class="member">
-            <h3><a href="/team/person-2">Kyla Gayle B. Delima</a></h3>
+            <h3><a href="/kdelima">Kyla Gayle B. Delima</a></h3>
             <p class="role">Database Designer</p>
           </div>
           <div class="member">
-            <h3><a href="/team/person-3">Angel M. Nocerale</a></h3>
+            <h3><a href="/anocerale">Angel M. Nocerale</a></h3>
             <p class="role">Web Designer</p>
           </div>
           <div class="member">
-            <h3><a href="/team/person-4">Azriel Kaye C. Castro</a></h3>
+            <h3><a href="/acastro">Azriel Kaye C. Castro</a></h3>
             <p class="role">Frontend Developer</p>
           </div>
           <div class="member">
-            <h3><a href="/team/person-5">Evan Kasimir Y. Magadan</a></h3>
+            <h3><a href="/emagadan">Evan Kasimir Y. Magadan</a></h3>
             <p class="role">DevOps Engineer</p>
           </div>
           <div class="member">
-            <h3><a href="/team/person-6">Jerome Daniel S. Sta. Agata</a></h3>
+            <h3><a href="/jdstaagata">Jerome Daniel S. Sta. Agata</a></h3>
             <p class="role">Backend Developer</p>
           </div>
           <div class="member">
@@ -69,7 +69,7 @@
 <style scoped>
 .about-us {
   padding: 2rem;
-  background-color: #f9f9f9;
+  background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
 }
 
 .container {
@@ -79,20 +79,20 @@
 
 h1 {
   font-size: 2.5rem;
-  color: #333;
+  color: #1e293b;
   margin-bottom: 1.5rem;
 }
 
 h2 {
   font-size: 1.8rem;
-  color: #444;
+  color: #334155;
   margin-top: 2rem;
   margin-bottom: 1rem;
 }
 
 .intro {
   font-size: 1.1rem;
-  color: #666;
+  color: #475569;
   line-height: 1.6;
   margin-bottom: 2rem;
 }
@@ -110,10 +110,17 @@ h2 {
 
 .member {
   padding: 1.5rem;
-  background-color: #fff;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(145deg, #ffffff 0%, #f8fafc 100%);
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05), 0 1px 3px rgba(0, 0, 0, 0.1);
   text-align: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border: 1px solid rgba(148, 163, 184, 0.1);
+}
+
+.member:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1), 0 4px 10px rgba(0, 0, 0, 0.05);
 }
 
 .member h3 {
