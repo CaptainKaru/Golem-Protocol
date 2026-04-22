@@ -41,7 +41,7 @@
             <p class="role">Web Designer</p>
           </div>
           <div class="member">
-            <h3><a href="/team/person-4">Azriel Kaye C. Castro</a></h3>
+            <h3><a href="/acastro">Azriel Kaye C. Castro</a></h3>
             <p class="role">Frontend Developer</p>
           </div>
           <div class="member">
