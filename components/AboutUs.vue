@@ -33,7 +33,7 @@
             <p class="role">Project Manager</p>
           </div>
           <div class="member">
-            <h3><a href="/team/person-2">Kyla Gayle B. Delima</a></h3>
+            <h3><a href="/kdelima">Kyla Gayle B. Delima</a></h3>
             <p class="role">Database Designer</p>
           </div>
           <div class="member">
