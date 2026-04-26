@@ -114,8 +114,8 @@
                             <span class="skill-tag hi">JavaScript</span>
                             <span class="skill-tag hi">TypeScript</span>
                             <span class="skill-tag">C#</span>
+                            <span class="skill-tag">Python</span>
                             <span class="skill-tag">React</span>
-                            <span class="skill-tag">Vue.js</span>
                             <span class="skill-tag">HTML</span>
                             <span class="skill-tag">CSS</span>
                             <span class="skill-tag">Assembly</span>
@@ -152,7 +152,7 @@
             { rel: 'stylesheet', href: '/custom.css' },
             { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
             { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' },
-            { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap' }
+            { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Bitcount:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap' }
         ]
     });
 </script>
@@ -162,6 +162,7 @@
     margin: 80px auto 40px;
     max-width: 860px;
     padding: 0 24px 24px;
+    font-family: "Roboto", Arial, sans-serif;
 }
 
 .container {
@@ -200,6 +201,7 @@
 }
 
 .hero-text h1 {
+    font-family: "Bitcount", sans-serif;
     font-size: 24px;
     font-weight: 500;
     color: #E1F5EE;
