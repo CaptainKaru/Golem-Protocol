@@ -53,7 +53,7 @@
             <p class="role">Backend Developer</p>
           </div>
           <div class="member">
-            <h3><a href="/team/person-7">Monarch Asis</a></h3>
+            <h3><a href="/masis">Monarch Renante G. Asis</a></h3>
             <p class="role">Quality Assurance (QA) Tester</p>
           </div>
         </div>
