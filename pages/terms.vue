@@ -1,7 +1,6 @@
 <script lang="ts"></script>
 <template>
     <client-only>
-        <!-- Design reviewed with regulatory compliance co-developers for clarity, accessibility, and corporate minimalism -->
         <NavBar :navAdminMode="'false'"/>
 
         <main class="terms-page">
@@ -179,7 +178,6 @@
         </main>
 
         <Cookies />
-        <AboutUs />
         <Copyright />
     </client-only>
 </template>

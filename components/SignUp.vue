@@ -38,3 +38,17 @@
     </div>
   </client-only>
 </template>
+
+<script setup lang="ts">
+// Expose element IDs for the page to access
+defineExpose({
+  elementIds: {
+    box: "gpSignUpBox",
+    fullName: "gpSignUpFullName", 
+    email: "gpSignUpEmail",
+    password: "gpSignUpPassword",
+    message: "gpSignUpMessage",
+    ok: "gpSignUpOK"
+  }
+});
+</script>
