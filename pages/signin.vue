@@ -50,16 +50,21 @@ const router = useRouter();
 const navAdminMode = computed(() =>
   userLevel.value >= 2 ? "gp-nav-admin" : "",
 );
-const gpServer = "https://golem-protocol-api.vercel.app";
+const gpServer = "http://localhost:5000";
+
+// FIX: Updated AuthResponse type to match backend
 type AuthResponse = {
   success: number;
   accessToken: string;
-  userLevel: number;
+  username: string;
+  role: string;
   message: string;
 };
+
 function getByID<T extends HTMLElement>(id: string) {
   return document.getElementById(id) as T | null;
 }
+
 function checkAuthorizations() {
   if (accessToken.value) {
     if (userLevel.value <= 1) {
@@ -108,6 +113,7 @@ function checkAuthorizations() {
   });
   loadModal();
 }
+
 async function signInWithPassword(tempEmail: string, tempPassword: string) {
   if (lastSignInClicked >= Date.now() - globalDelay) return;
   lastSignInClicked = Date.now();
@@ -130,28 +136,36 @@ async function signInWithPassword(tempEmail: string, tempPassword: string) {
         password: tempPassword
       },
     })) as AuthResponse;
+    
     isSuccessful = Boolean(response.success === 1);
-    emailAddress.value = tempEmail;
-    accessToken.value = response.accessToken;
-    userLevel.value = response.userLevel;
+    
+    if (isSuccessful) {
+      emailAddress.value = tempEmail;
+      accessToken.value = response.accessToken;
+      fullName.value = response.username;
+      // Convert role string to userLevel number
+      userLevel.value = response.role === "admin" ? 2 : 1;
+    }
+    
     if (response.message) {
       signinMessage.innerText = response.message;
       signinMessage.classList.remove("gp-hidden");
     }
   } catch (e: any) {
-    signinMessage.innerText = `Error encountered: ${e}`;
+    signinMessage.innerText = `Error encountered: ${e.message || e}`;
     signinMessage.classList.remove("gp-hidden");
   } finally {
     signinOK.dataset.busy = "0";
   }
   [signinEmail, signinPassword].forEach((el) => {
-    el.remove();
+    el.disabled = false;
   });
   signinOK.dataset.busy = "0";
   if (isSuccessful) {
     router.push("/");
   }
 }
+
 function loadModal() {
   const cookieX = getByID<HTMLDivElement>("gpCookieX");
   const cookieOK = getByID<HTMLDivElement>("gpCookieOK");
@@ -168,6 +182,7 @@ function loadModal() {
     allowAllCookies();
   });
 }
+
 function showCookiePopup(show: boolean = true) {
   const cookieBox = getByID<HTMLDivElement>("gpCookieBox");
   const cookieModal = getByID<HTMLDivElement>("gpCookieModal");
@@ -180,13 +195,16 @@ function showCookiePopup(show: boolean = true) {
   cookieBox.classList.remove("gp-hidden");
   cookieModal.classList.remove("gp-hidden");
 }
+
 let lastCookieClicked = 0;
+
 function allowAllCookies() {
   if (lastCookieClicked >= Date.now() - globalDelay) return;
   lastCookieClicked = Date.now();
   allowCookies.value = true;
   showCookiePopup(false);
 }
+
 onMounted(() => {
   nextTick(checkAuthorizations);
 });

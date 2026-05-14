@@ -11,6 +11,8 @@
                 <a href="/policy">Privacy Policy</a>
                 <span>&nbsp;|&nbsp;</span>
                 <a href="/support">Support</a>
+                <span>&nbsp;|&nbsp;</span>
+                <a href="/aboutus">About Us</a>
             </nav>
                 <div class="gp-footer-copyright">
                 <span>&copy;&nbsp;</span>
